@@ -1,0 +1,85 @@
+.amber-token__header {
+  display: flex;
+  background-color: $mainPurple;
+  justify-content: center;
+}
+
+.amber-token__header__left {
+  color: $white;
+  flex-basis: 40%;
+}
+
+.amber-token__header__left__p {
+  line-height: 30px;
+  padding-top: 22px;
+}
+
+.amber-token__header__left__title {
+  padding-top: 168px;
+}
+
+.amber-token__header__right__img {
+  padding-top: 52px;
+  padding-left: 150px;
+}
+
+.amber-token__main__cards {
+  display: flex;
+  justify-content: center;
+}
+
+.amber-token__main__h3 {
+  font-size: 21px;
+  line-height: 36px;
+  color: $mainPurple;
+  font-family: $main-font-family;
+  text-align: center;
+  padding-top: 68px;
+  padding-bottom: 62px;
+  margin: 0 400px;
+}
+
+.amber-token__main__card {
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(52, 28, 186, 0.15);
+  padding: 0px 70px 36px 70px;
+}
+
+.amber-token__main__card:nth-child(2) {
+  margin: 0 60px;
+}
+
+.amber-token__main__card__h4 {
+  color: $mainPurple;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 30px;
+  padding-bottom: 26px;
+}
+
+.amber-token__main__card__p {
+  color: $mainPurple;
+  line-height: 30px;
+}
+
+.amber-token__main__card__img {
+  margin-top: -20px;
+}
+
+.amber-token__main__block {
+  margin-top: 60px;
+  text-align: center;
+  border: 3px solid $mainPurple;
+  border-radius: 8px;
+}
+
+.amber-token__main__block__text {
+  padding: 40px 256px;
+  color: $mainPurple;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.tmp-container {
+  margin: 160px 120px 0 120px;
+}

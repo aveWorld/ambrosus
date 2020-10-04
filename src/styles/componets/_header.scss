@@ -1,0 +1,19 @@
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 40px;
+}
+
+.header__links__link {
+  color: $mainPurple;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: $reso-font-family;
+  padding-left: 30px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+}

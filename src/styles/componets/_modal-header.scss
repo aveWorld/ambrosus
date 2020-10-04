@@ -1,0 +1,17 @@
+.modal-header {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(74, 56, 174, 0.9);
+  transition: all 0.3s ease-in-out;
+  padding-top: 150px;
+}
+
+.modal-header__exit {
+  position: absolute;
+  top: 5%;
+  right: 4%;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,139 @@
+.ecosystem__head {
+  background-color: $mainPurple;
+}
+
+.ecosystem__head__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 60px 220px;
+}
+
+.ecosystem__head__cards__card {
+  background-color: $white;
+  color: $mainPurple;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(52, 28, 186, 0.15);
+  padding: 0 40px 40px 40px;
+}
+
+.ecosystem__head__cards__card:nth-child(1) {
+  flex-basis: 48%;
+}
+.ecosystem__head__cards__card:nth-child(2) {
+  flex-basis: 48%;
+}
+.ecosystem__head__cards__card:nth-child(3) {
+  margin-top: 40px;
+}
+
+.ecosystem__head__card__title {
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.ecosystem__head__card__subtitle {
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 20px;
+}
+
+.ecosystem__head__card__image {
+  margin-top: -20px;
+}
+
+.ecosystem__head__title {
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: $white;
+  text-align: center;
+}
+
+.ecosystem__head__subtitle {
+  color: $white;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 21px;
+  line-height: 36px;
+}
+
+.ecosystem__head__bottom-text {
+  padding-bottom: 60px;
+}
+
+.ecosystem__main__block {
+  color: $mainPurple;
+  width: 50%;
+  margin: 80px auto;
+}
+
+.ecosystem__main__block__title {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+.ecosystem__main__block__subtitle {
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.ecosystem__main__bottom-text {
+  color: $mainPurple;
+  font-size: 16px;
+  line-height: 30px;
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.ecosystem__footer {
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.ecosystem__footer__wrapper {
+  background-color: $mainPurple;
+}
+
+.ecosystem__footer__right {
+  color: $white;
+}
+
+.ecosystem__footer__title {
+  font-size: 40px;
+  line-height: 45px;
+}
+
+.ecosystem__footer__subtitle {
+  font-size: 18px;
+  line-height: 21px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 90%;
+  max-width: 800px;
+}
+
+.ecosystem__footer__tick-block {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ecosystem__footer__tick-block__tick {
+  margin-right: 20px;
+}
+
+.ecosystem__footer__right {
+  margin-left: 126px;
+}
+
+.ecosystem__footer__tick-block__text {
+  width: 60%;
+}
+
+.ecosystem__footer__right__btn {
+  margin-top: 46px;
+}

@@ -1,0 +1,49 @@
+.main-page {
+}
+
+.main-page__header {
+  background-color: $mainPurple;
+}
+
+.main-page__header__left__title {
+  font-size: 28px;
+  line-height: 31px;
+  color: $white;
+  font-family: $reso-font-family;
+}
+
+.main-page__header__left {
+  flex-basis: 50%;
+  color: $white;
+}
+
+.main-page__header__span {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-page__header__left__footer__link {
+  color: $lightBlue;
+  padding-left: 20px;
+  font-family: $reso-font-family;
+}
+
+.main-page__header__left__p {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  line-height: 36px;
+  max-width: 80%;
+}
+
+.main-page__header {
+  display: flex;
+  padding: 146px 42px 22px 120px;
+}
+
+.main-page__header__image {
+  padding-top: 60px;
+}
+
+.main-page__header__logo {
+  padding-bottom: 24px;
+}

@@ -1,0 +1,25 @@
+.footer {
+  margin: 60px 120px 0 120px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer__icons {
+  display: flex;
+  align-items: center;
+}
+
+.footer__icons > a {
+  margin: 0 8px;
+}
+
+.footer__copyright {
+  font-size: 12px;
+  line-height: 30px;
+  color: $mainPurple;
+}

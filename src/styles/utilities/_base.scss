@@ -1,0 +1,36 @@
+body {
+  position: relative;
+  font-family: $main-font-family;
+  transition: background-color 0.25s ease;
+}
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 18px;
+}
+
+a {
+  color: $mainPurple;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    text-decoration: none;
+  }
+  &:link {
+    text-decoration: none;
+  }
+  &:active {
+    text-decoration: none;
+  }
+}
+
+p {
+  margin: 0;
+}
