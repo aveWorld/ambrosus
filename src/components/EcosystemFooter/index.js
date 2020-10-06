@@ -12,7 +12,7 @@ export default function EcosystemFooter() {
   return (
     <div className="ecosystem__footer">
       <div className="ecosystem__footer__left">
-        <ReactSVG src={FooterImg} />
+        <ReactSVG src={FooterImg} className="ecosystem__footer__left__img" />
       </div>
       <div className="ecosystem__footer__right">
         <h3 className="ecosystem__footer__title">

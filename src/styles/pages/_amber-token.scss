@@ -1,6 +1,5 @@
 .amber-token__header {
   display: flex;
-  // background-color: $mainPurple;
   background: url('../../assets/svg/bckg2.svg') no-repeat;
   background-size: cover;
   justify-content: center;
@@ -9,6 +8,7 @@
 .amber-token__header__left {
   color: $white;
   flex-basis: 40%;
+  padding-left: 15px;
 }
 
 .amber-token__header__left__p {
@@ -82,6 +82,47 @@
   line-height: 30px;
 }
 
-.tmp-container {
-  margin: 160px 120px 0 120px;
+@media (max-width: 1200px) {
+  .amber-token__header__right__img > div > svg {
+    max-width: 100%;
+  }
+  .amber-token__header__right__img {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .amber-token__main__block__text {
+    padding: 40px 156px;
+  }
+  .amber-token__main__cards {
+    flex-wrap: wrap;
+  }
+  .amber-token__main__h3 {
+    margin: 0 90px;
+  }
+  .amber-token__main__card {
+    margin: 40px 0;
+  }
+  .amber-token__header__left {
+    flex-basis: 80%;
+  }
+  .amber-token__header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 576px) {
+  .amber-token__main__h3 {
+    margin: 0 10px;
+  }
+  .amber-token__header__left {
+    flex-basis: 95%;
+  }
+  .amber-token__main__block__text {
+    padding: 40px 5px;
+  }
+  .amber-token__main__card:nth-child(2) {
+    margin: 0 0px;
+  }
 }
