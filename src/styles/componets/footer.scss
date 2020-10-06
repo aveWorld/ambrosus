@@ -42,3 +42,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 576px) {
+  .footer__icons {
+    flex-wrap: wrap;
+  }
+}

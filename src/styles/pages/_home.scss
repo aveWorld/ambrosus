@@ -78,3 +78,17 @@
     padding: 126px 5px 22px 25px;
   }
 }
+
+@media (max-width: 576px) {
+  .main-page__header__logo > div > svg {
+    max-width: 80%;
+  }
+  .main-page__header__left__footer {
+    flex-wrap: wrap;
+  }
+  .main-page__header__left__footer__link {
+    flex-basis: 100%;
+    padding-left: 0px;
+    padding-top: 15px;
+  }
+}
