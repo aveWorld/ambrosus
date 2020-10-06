@@ -9,6 +9,7 @@ import Layout from './components/Layout';
 import Home from './pages/Home';
 import AmberToken from './pages/AmberToken';
 import Ecosystem from './pages/Ecosystem';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           path="/ecosystem-overview"
           component={() => <Ecosystem />}
         />
+        <Route exact path="/404" component={() => <NotFound />} />
+        <Redirect to="/404" />
       </Switch>
     </Layout>
   );

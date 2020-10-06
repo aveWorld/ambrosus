@@ -20,11 +20,11 @@ export default function Footer() {
   const copyrightText = `Ambrosus 2017-${new Date().getFullYear()}, All Rights Reserved `;
   return (
     <div className="footer">
-      <div className="footer-wrapper">
-        <Link to="/">
+      <div className="footer-wrapper container">
+        <Link to="/" className="footer__item">
           <ReactSVG src={Logo} />
         </Link>
-        <div className="footer__icons">
+        <div className="footer__icons footer__item">
           <Link to="/">
             <ReactSVG src={Image1} />
           </Link>
@@ -59,7 +59,7 @@ export default function Footer() {
             <ReactSVG src={Image11} />
           </Link>
         </div>
-        <span className="footer__copyright">{copyrightText}</span>
+        <span className="footer__copyright footer__item">{copyrightText}</span>
       </div>
     </div>
   );

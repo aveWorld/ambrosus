@@ -33,7 +33,9 @@ export default function Home() {
             systems.
           </p>
           <div className="main-page__header__left__footer">
-            <Button text="Get started" />
+            <div>
+              <Button text="Get started" />
+            </div>
             <Link
               to="amber-token"
               className="main-page__header__left__footer__link"

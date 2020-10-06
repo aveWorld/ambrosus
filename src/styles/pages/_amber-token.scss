@@ -1,6 +1,8 @@
 .amber-token__header {
   display: flex;
-  background-color: $mainPurple;
+  // background-color: $mainPurple;
+  background: url('../../assets/svg/bckg2.svg') no-repeat;
+  background-size: cover;
   justify-content: center;
 }
 
@@ -36,7 +38,7 @@
   text-align: center;
   padding-top: 68px;
   padding-bottom: 62px;
-  margin: 0 400px;
+  margin: 0 190px;
 }
 
 .amber-token__main__card {

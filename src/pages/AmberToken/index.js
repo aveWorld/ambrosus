@@ -28,7 +28,7 @@ export default function AmberToken() {
           <ReactSVG src={MainImg} className="amber-token__header__right__img" />
         </div>
       </div>
-      <div className="amber-token__main">
+      <div className="amber-token__main container">
         <h3 className="amber-token__main__h3">
           For Running a Node on the Ambrosus Blockchain the Following Tokens
           Thresholds are Required in line with the Ambrosus Proof of Authority
@@ -53,7 +53,7 @@ export default function AmberToken() {
             <p className="amber-token__main__card__p">Open-Sourced</p>
           </div>
         </div>
-        <div className="amber-token__main__block tmp-container">
+        <div className="amber-token__main__block">
           <h3 className="amber-token__main__block__text">
             Bundle Cost: $25 USD Paid in Amber
           </h3>

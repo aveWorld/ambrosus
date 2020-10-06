@@ -17,7 +17,7 @@ export default function MainSelection({ img, title, subtitle, reverse }) {
         </>
       ) : (
         <>
-          <div className="main-page__selection__div padding-left">
+          <div className="main-page__selection__div padding-right">
             <h3 className="main-page__selection__div__title">{title}</h3>
             <p className="main-page__selection__div__subtitle">{subtitle}</p>
           </div>

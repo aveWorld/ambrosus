@@ -12,7 +12,7 @@ import Button from '../Button';
 
 export default function PreFooter() {
   return (
-    <div className="pre-footer">
+    <div className="pre-footer container">
       <h2 className="pre-footer__title">Get Started With Ambrosus</h2>
       <div className="pre-footer__icons">
         <div className="pre-footer__icons__icon">

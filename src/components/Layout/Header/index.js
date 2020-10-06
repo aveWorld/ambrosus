@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 //components
 import Button from '../../Button';
 import ModalHeader from '../../ModalHeader';
+import Burger from './Burger';
 
 //Assets
 import HeaderLogo from '../../../assets/svg/headerLogo.svg';
@@ -24,6 +25,9 @@ export default function Header() {
           <Link to="/">
             <ReactSVG src={HeaderLogo} />
           </Link>
+          <div className="burger-menu">
+            <Burger />
+          </div>
           <div className="header__links">
             <Link to="/amber-token" className="header__links__link">
               Amber Token

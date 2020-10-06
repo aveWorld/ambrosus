@@ -56,7 +56,7 @@ export default function Ecosystem() {
           Management.
         </p>
       </div>
-      <div className="ecosystem__main">
+      <div className="ecosystem__main container">
         <div className="ecosystem__main__block">
           <h3 className="ecosystem__main__block__title">
             The Ambrosus Explorer

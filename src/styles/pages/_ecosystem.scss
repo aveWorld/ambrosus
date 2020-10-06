@@ -1,5 +1,6 @@
 .ecosystem__head {
-  background-color: $mainPurple;
+  // background-color: $mainPurple;
+  background: url('../../assets/svg/bckg3.svg');
 }
 
 .ecosystem__head__cards {
@@ -64,8 +65,8 @@
 
 .ecosystem__main__block {
   color: $mainPurple;
-  width: 50%;
   margin: 80px auto;
+  padding: 0 190px;
 }
 
 .ecosystem__main__block__title {
@@ -83,9 +84,8 @@
   color: $mainPurple;
   font-size: 16px;
   line-height: 30px;
-  width: 50%;
   margin: 0 auto;
-  padding-bottom: 100px;
+  padding: 0 190px 100px 190px;
 }
 
 .ecosystem__footer {
@@ -95,7 +95,7 @@
 }
 
 .ecosystem__footer__wrapper {
-  background-color: $mainPurple;
+  background: url('../../assets/svg/foot2.svg');
 }
 
 .ecosystem__footer__right {

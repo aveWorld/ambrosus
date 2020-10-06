@@ -1,0 +1,90 @@
+.bm-burger-button {
+  position: relative;
+  width: 36px;
+  height: 30px;
+  right: 10px;
+  top: 0px;
+}
+
+.bm-burger-bars {
+  background: $mainPurple;
+}
+
+.bm-burger-bars-hover {
+  background: blue;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: $white;
+}
+.bm-cross {
+  color: transparent;
+  position: relative;
+  &:before,
+  &:after {
+    width: 25px;
+    height: 3px;
+    background: $mainPurple;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+  }
+  &:before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  &:after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  width: 100% !important;
+  left: 0;
+  top: 0;
+}
+
+.bm-menu {
+  background: $white;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: blue;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-item-list {
+  padding: 0;
+  height: auto !important;
+}
+
+.bm-overlay {
+  z-index: 1000;
+  top: 0;
+  background: $white !important;
+}
+
+.burger__link {
+  font-size: 28px;
+}
+
+.header-wrapper-navbar-items {
+  padding-top: 20px;
+}
+
+.burger__btn-div {
+  padding-left: 30px;
+  padding-top: 30px;
+}
