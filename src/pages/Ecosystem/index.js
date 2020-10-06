@@ -1,18 +1,19 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
+import { Helmet } from 'react-helmet';
 
 //Assets
 import CardImg from '../../assets/svg/amber-token-img.svg';
-import Tick from '../../assets/svg/tick.svg';
-import FooterImg from '../../assets/svg/ecosystem-img.svg';
 
 // Components
-import Button from '../../components/Button';
 import EcosystemFooter from '../../components/EcosystemFooter';
 
 export default function Ecosystem() {
   return (
     <>
+      <Helmet>
+        <title>Ecosystem</title>
+      </Helmet>
       <div className="ecosystem__head">
         <h1 className="ecosystem__head__title">Ambrosus: Ecosystem Overview</h1>
         <p className="ecosystem__head__subtitle">

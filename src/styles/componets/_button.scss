@@ -10,3 +10,8 @@
   height: 50px;
   cursor: pointer;
 }
+
+.main-button:hover {
+  background-color: #a1fffa;
+  transition: all 0.1s ease-in-out;
+}

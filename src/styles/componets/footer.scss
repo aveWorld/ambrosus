@@ -25,6 +25,11 @@
   color: $mainPurple;
 }
 
+.footer__icons > a:hover div > div > svg > path {
+  transition: all 0.1s ease-in-out;
+  fill: $lightBlue;
+}
+
 @media (max-width: 992px) {
   .footer__item:nth-child(3) {
     order: 2;

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactSVG } from 'react-svg';
+import { Helmet } from 'react-helmet';
 
 //Assets
 import MainImg from '../../assets/svg/amberTokenMain.svg';
@@ -11,6 +12,9 @@ import PreFooter from '../../components/PreFooter';
 export default function AmberToken() {
   return (
     <>
+      <Helmet>
+        <title>Amber Token</title>
+      </Helmet>
       <div className="amber-token__header">
         <div className="amber-token__header__left">
           <h1 className="amber-token__header__left__title">The Amber Token:</h1>
