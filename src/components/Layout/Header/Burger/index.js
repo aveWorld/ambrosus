@@ -3,9 +3,6 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { slide as Menu } from 'react-burger-menu';
 
-// Components
-import Button from '../../../Button';
-
 const Burger = () => {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
@@ -50,9 +47,6 @@ const Burger = () => {
               Ecosystem Overview
             </Link>
           </p>
-          <div className="burger__btn-div">
-            <Button text="Get started" />
-          </div>
         </main>
       </Menu>
     </>

@@ -36,3 +36,12 @@
     padding-top: 30px;
   }
 }
+
+@media (max-width: 576px) {
+  .main-page__selection__img {
+    text-align: center;
+  }
+  .main-page__selection__img > div > svg {
+    width: 80%;
+  }
+}
